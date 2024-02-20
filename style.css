@@ -1,0 +1,490 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    vertical-align: baseline;
+}
+
+address, article, aside, audio, body,
+canvas, caption, cite, code, dd, del, div, dl, dt, em,
+fieldset, figcaption, figure, footer, form,
+h1, h2, h3, h4, h5, h6, header, html, img, input, ins,
+label, legend, li, mark, nav, ol, p, pre a,
+section, span, strong, summary,
+table, tbody, td, textarea, tfoot, th, thead, time, tr,
+ul, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+body{
+    background-color: #fff;
+    scrollbar-width: none;
+}
+
+.container{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* blue */
+/* 0294F7 */
+
+
+/* header */
+header{
+    max-width: 500px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 0.1px solid #ccc;
+    background: #fff;
+    height: 59px;
+    align-items: center;
+    display: flex;
+    z-index: 20;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    width: 48px;
+    height: 48px;
+}
+header ul li img{
+    display: block;
+}
+header .logo{
+    width: 120.8px;
+    position: relative;
+    top: 4px;
+    left: 20px;
+}
+header img{
+    width: 24px;
+    height: 24px;
+}
+header .icn-hdr1{
+    position: absolute;
+    top: 18px;
+    right: 60px;
+}
+header .icn-hdr2{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+/* ---------- */
+/* alarm */
+.hdr-alm{
+    position: relative;
+    display: flex;
+
+}
+.hdr-alm ul{
+    width: inherit;
+    height: 60px;
+    /* align-items: center; */
+    display: flex;
+}
+.hdr-alm ul li{
+    height: 60px;
+}
+.alm-1{
+    width: 50px;
+    height: inherit;
+}
+.alm-2{
+    width: 200px;
+    height: inherit;
+    position: relative;
+}
+.hdr-alm ul li a{
+    width: 50px;
+    height: 60px;
+    display: block;
+    position: absolute;
+}
+.hdr-alm ul li a img{
+    margin: 15px 10px;
+    width: 30px;
+    height: 30px;
+}
+.hdr-alm ul li p{
+    width: 200px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: -8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: #262626;
+}
+
+
+/* ---------- */
+
+
+
+/* footer */
+footer{
+    max-width: 500px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 0.1px solid #ccc;
+    background: #fff;
+    z-index: 20;
+}
+footer ul{
+    height: 48px;
+    justify-content: space-evenly;
+    display: flex;
+}
+footer ul li{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+footer ul li a{
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+footer img{
+    width: 24px;
+    height: 24px;
+    margin: 12px 12px;
+}
+footer .icn-ftr1{
+    width: 22px;
+}
+footer .icn-ftr3{
+    width: 20px;
+}
+footer .icn-ftr4{
+    width: 26px;
+}
+/* ---------- */
+
+.a{
+    height: 1000px;
+    /* background: salmon; */
+}
+.space-h{
+    height:60px;
+}
+.space-f {
+    height: 48px;
+}
+/* story */
+
+.space-s{
+    height: 121px;
+}
+.story{
+    height: inherit;
+    display: flex;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.story::-webkit-scrollbar{
+    width: 0px;
+}
+.story ul{
+    white-space: nowrap;
+}
+.story ul li{
+    display: inline-block;
+}
+.story ul li img{
+    width: 74px;
+    height: 74px;
+    margin: 12px;
+}
+.story .str-1 .add-circle img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50.5px;
+    right: 0.5px;
+}
+.story .str-1 .add-circle .backcircle {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 46.5px;
+    right: -3.5px;
+}
+.story p{
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.str-1{
+    width: 98px;
+    height: 121px;
+    /* display: flex; */
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.str-2{
+    width: 98px;
+    height: 121px;
+    /* display: flex; */
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.str-2 img{
+    border-radius: 50%;
+}
+.str-2 #str-on{
+    width: 84px;
+    height: 84px;
+    margin: 7px;
+}
+.str-2 #str-prf{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/* post */
+.pst img{
+    width: 100%;
+}
+.pst video{
+    width: 100%;
+}
+video::-webkit-media-controls-download-button,
+video::-webkit-media-controls-playback-rate-menu,
+video::-webkit-media-controls-picture-in-picture-button,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-context-menu-button{
+  display: none;
+}
+.slick-track{
+    max-height: 1920px;
+    height: 100%;
+}
+.slick-list{
+    max-height: 1920px;
+    height: 100%;
+}
+.slick-dots{
+    height: 0px;
+    display: flex;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 2.2px;
+}
+.slick-dots button{
+    font-size: 0px;
+    display: block;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #bbbbbb;
+}
+.slick-dots li.slick-active button{
+    background-color: #0294F7;
+}
+.ub{
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.ub #selfie{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    position: relative;
+}
+.ub #selfie a{
+    width: 48px;
+    height: 48px;
+}
+.ub #ub-on{
+    width: 38px;
+    height: 38px;
+    margin: 5px;
+}
+.ub #ub-prf{
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.ub #username{
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.ub #username a{
+    width: auto;
+    max-width: 500px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+}
+.usern{
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 0 0 0 5px;
+}
+.ub #threedots{
+    position: absolute;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.ub #threedots img{
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+}
+.ub #threedots a{
+    width: 48px;
+    height: 48px;
+}
+.lb{
+    height: 48px;
+    display: flex;
+}
+.lb ul{
+    height: inherit;
+}
+.lb ul li{
+    display: inline-block;
+}
+.lb ul li a{
+    /* display: block; */
+    width: inherit;
+    height: inherit;
+}
+.lb img{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin: 12px;
+}
+.icn-pst{
+    width: 48px;
+    height: 48px;
+}
+/* .sb #icn-pst1{
+    position: absolute;
+    left: 12px;
+} */
+.lb #icn-pst2{
+    position: absolute;
+    left: 36px;
+}
+.lb #icn-pst3{
+    position: absolute;
+    left: 70px;
+}
+.lb #icn-pst4{
+    position: absolute;
+    right: 0px;
+}
+.lb-liked{
+    width: 100%;
+    height: 24px;
+}
+.lb-liked ul{
+    display: flex;
+}
+#icn-liked{
+    width: 38px;
+    height: 24px;
+}
+#icn-liked img{
+    width: 20px;
+    margin: 2px 6px 2px 12px;
+}
+#txt-liked{
+    font-size: 14px;
+    height: 24px;
+    align-items: center;
+    display: flex;
+}
+#txt-liked .bt-liked{
+    font-weight: bold;
+}
+.lb-txt{
+    width: 100%-12px;
+    height: auto;
+}
+.lb-txt .lb-txt-inner{
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+    font-family: 'arial';
+}
+.user-txt{
+    font-weight: bold;
+}
+.more2-txt{
+    color: #747474;
+}
+.lb-cmt{
+    width: 100%-12px;
+    height: auto;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.lb-cmt p{
+    color: #747474;
+}
+.lb-date{
+    width: 100%-12px;
+    height: auto;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.lb-date p{
+    color: #747474;
+}
